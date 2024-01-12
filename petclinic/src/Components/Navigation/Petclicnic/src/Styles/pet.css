@@ -1,0 +1,76 @@
+.owner-pet-list-title {
+  font-size: 2em;
+  color: #f0eded;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#myInput {
+  /* width: 40%; */
+  width: 60rem;
+  height: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.check-Box {
+  align-items: center;
+
+  display: inline-flex;
+  position: fixed;
+}
+
+.check-Box label {
+  margin-left: 10px;
+}
+
+.btn-create {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn-create button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #007bff;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tablecell {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  width: 150px;
+  background-color: #0d1e2f;
+  margin-top: 20px;
+  box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.052);
+}
+
+@media only screen and (max-width: 600px) {
+  #myInput {
+    width: 70%;
+    margin-left: 20px;
+  }
+  .check-Box {
+    margin-right: 8px;
+    z-index: 1;
+
+    /* position: relative; */
+  }
+  .check-Box label {
+    z-index: 1;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #myInput {
+    width: 80%;
+    margin-left: -120px;
+  }
+}

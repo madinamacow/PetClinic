@@ -1,0 +1,119 @@
+div.MuiCardHeader-root.css-185gdzj-MuiCardHeader-root {
+    width: 300px;
+    display: inline-flex;
+
+    background-color: rgb(154, 24, 247);
+}
+
+
+
+@media (max-width: 600px) {
+    div.MuiCardHeader-root.css-185gdzj-MuiCardHeader-root {
+        width: 100%;
+    }
+    .MuiTypography-root {
+        text-align: left; /* Align left on small screens */
+      }
+
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-5qhjkt-MuiPaper-root-MuiCard-root {
+        width: 80%;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    div.MuiCardHeader-root.css-185gdzj-MuiCardHeader-root {
+        width: 100%;
+    }
+
+    .MuiPaper-root.MuiPaper-elevation {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .label {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1240px) and (min-width: 800px) {
+    div.MuiCardHeader-root.css-185gdzj-MuiCardHeader-root {
+        width: 100%;
+        
+    }
+
+    .MuiPaper-root.MuiPaper-elevation {
+        margin-left: 200px;
+        width: 560px;
+    }
+
+
+    .label > p {
+        margin-left: 340px;
+    }
+}
+
+@media (max-width: 1456px) and (min-width: 1240px) {
+    div.MuiCardHeader-root.css-185gdzj-MuiCardHeader-root {
+        width: 100%;
+    }
+    
+
+    .MuiPaper-root.MuiPaper-elevation {
+        margin-left: 200px;
+        display: inline-block;
+    }
+
+    .MuiPaper-root.MuiPaper-elevation {
+        width: 560px;
+    }
+
+    .label > p {
+        margin-right: 100px;
+    }
+}
+
+.label > p {
+    margin-left: 690px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+    
+
+
+}
+
+.no_pet {
+    margin-right: 400px;
+    color: red;
+}
+@media (min-width: 1240px) {
+    .MuiToolbar-root {
+      justify-content: space-between;
+    }
+.MuiBox-root.css-pori7h > a > button {
+        margin-left: 125rem;
+    }
+  
+
+  }
+  @media (max-width: 1600px) {
+    .MuiToolbar-root {
+      justify-content: space-between;
+    }
+.MuiBox-root.css-pori7h > a > button {
+        margin-left: 10rem;
+    }
+  
+
+  }
+  .MuiCardHeader-avatar.css-1ssile9-MuiCardHeader-avatar {
+    /* float: none; */
+
+  z-index: 1000; /* Any number higher than the z-index of the avatar */
+  }
+
+  
