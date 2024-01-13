@@ -16,8 +16,7 @@ const navigate =useNavigate()
     status: "",
   });
 
-  const [comment, setComment]=useState("");
-const [newComment, setNewComment] = useState('');
+
 
   useEffect(() => {
     axios
@@ -72,14 +71,7 @@ const [newComment, setNewComment] = useState('');
         console.error(`HTTP error! status: ${error.response.status}`);
       });
   };
-  const handleComment = async (e) => {
-    e.preventDefault();
-    setComment(prev => ({
-      ...prev,
-      comment: prev.comment + '\n' + e.target.value
-    }));
-    console.log("comment" + comment);
-  }
+
   return (
     <div className="form-container">
       <div className="edit-pet-form">
@@ -134,12 +126,6 @@ const [newComment, setNewComment] = useState('');
               border: "none",
               cursor: "pointer",
             }}
-            onClick={() => {
-    // Append new comment to existing comments
-    setComment(prevComment => prevComment + '\n' + newComment);
-    // Clear new comment
-    setNewComment('');
-  }}
    
           >
             save
